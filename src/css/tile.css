@@ -1,0 +1,13 @@
+.tile{
+    background-color: var(--tile);
+    width: var(--cell-width);
+    height: var(--cell-height);
+    border-radius: 3px;
+    margin: 15px;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #776e65;
+}

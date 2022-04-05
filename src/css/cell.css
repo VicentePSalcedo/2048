@@ -1,0 +1,4 @@
+.cell{
+    width: var(--cell-width);
+    height: var(--cell-height);
+}

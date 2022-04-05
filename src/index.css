@@ -1,10 +1,18 @@
+:root{
+  --background: #faf8ef;
+  --grid: #bbada0;
+  --tile: #eee4da;
+  --font-style: Clear Sans;
+  --cell-width: 107px;
+  --cell-height: 107px;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
 }
 
 code {
